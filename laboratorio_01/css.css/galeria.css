@@ -1,0 +1,76 @@
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 218, 112);
+    background-color: #000000;
+    margin: 0; /* Añadido para evitar conflictos con el CSS de la galería */
+    padding: 0; /* Añadido para evitar conflictos con el CSS de la galería */
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid rgb(31, 218, 112);
+}
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+.text-container {
+    text-align: center;
+}
+
+/* Estilos de la galería */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 900px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.gallery-item {
+    width: 100%; /* Ancho del contenedor de la imagen */
+    height: 200px; /* Altura fija para las imágenes */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+}
+
+.gallery-item img {
+    width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+    height: 100%; /* Ajustar la altura de la imagen al contenedor */
+    object-fit: cover; /* Mantener la relación de aspecto */
+}
