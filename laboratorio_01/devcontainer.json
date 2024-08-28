@@ -1,8 +1,0 @@
-{
-    "name": "Docker html",
-    
-    "dockerFile": "DockerFile",
-
-    "appPort": 8084
-
-}
