@@ -30,3 +30,7 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted }
+
+.text-container {
+  text-align: center;
+}
