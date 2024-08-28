@@ -1,103 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 10%;
-    vertical-align: baseline;
-}
 body {
-    text-align: center;
-    font-family: sans-serif;
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(31, 218, 112);
+  background-color: #000000;
 }
 
-.title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #f7f6f6;
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
 }
 
-p {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fbf8f8;
-    padding: 0 150px;
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
 }
 
-.about {
-    background: #000000;
-    padding: 10px 0;
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid rgb(31, 218, 112);
 }
 
-.box-container2{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    flex-wrap: wrap;
+ul.navbar a {
+  text-decoration: none;
 }
 
-.box-container2 .box {
-    width: 200px;
-    padding-bottom: 20px;
-    text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
-    background: #171717;
-    margin: 20px 20px;
+a:link, a:visited {
+  color: rgb(0, 0, 0);
 }
 
-.box-container2 .box img {
-    height: 70px;
-    width: 70px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: -50px;
-    border: 6px solid #4e95cb;
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+  text-align: center;
 }
-
-
-
-.box-container2 .box p {
-
-    font-size: 18px;
-    color: #fff;
-    padding: 0;
-}
-
-
-body {
-    padding-left: 11em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: rgb(31, 218, 112);
-    background-color: #000000 }
-  ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid rgb(31, 218, 112) }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: rgb(0, 0, 0) }
-  a:visited {
-    color: rgb(0, 0, 0) }
-  address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
 
 .text-container {
   text-align: center;
 }
+
+.presentation {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.presentation h2, .presentation h3 {
+  margin: 10px 0;
+}
+
+.presentation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.presentation li {
+  background: #333;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
